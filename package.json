@@ -20,6 +20,7 @@
     "test:4": "vitest run",
     "watch-coverage": "vitest --ui --coverage",
     "coverage": "vitest run --coverage",
+    "e2e": "playwright test",
     "lint": "eslint . --fix",
     "format": "prettier -w './**/*.{js,json,ts,tsx}'"
   },
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.1.0",
+    "@playwright/test": "1.47.2",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.0.1",
     "@types/node": "22.7.4",
