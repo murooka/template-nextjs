@@ -11,6 +11,9 @@ type Props = Readonly<{
 export default function RootLayout({ children }: Props): ReactNode {
   return (
     <html lang="ja">
+      <head>
+        <link rel="shortcut icon" href="/favicon.svg" />
+      </head>
       <body>{children}</body>
     </html>
   );
